@@ -1,0 +1,132 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	direction:rtl;
+	font-family: 'Varela Round', sans-serif;
+}
+.wrapper
+{
+	width:60%;
+	margin:auto;
+}
+h1.mainTitle{
+	font-size:2.9em;
+    position: relative;	
+    	 	display:inline;	 
+}
+.welcome p{
+   font-size:1.1em;
+   padding:10px;
+   color:black;
+}
+.upper
+{
+	border-top: 3px solid #505d8a;
+	padding-top:20px;
+}
+.img_row img
+{
+	margin:auto;
+	width:100%;
+}
+p.subTitle
+{
+   font-size:1.9em;
+   color:#6b352b;
+   
+}
+p.titleHint
+{
+	font-size:1em;
+    color:#7d7d7d;
+}
+.subtitle_row
+{
+	padding:10px 0;
+}
+.treatment_links
+{
+	font-size:1.6em;
+	border: 2px dotted #505d8a;
+    width: 100%;
+    float: right;
+	padding:10px;
+	margin:20px 0;	
+}
+.treatments,.about_us,.contact_row,.login_txt_row,.admin_login_row
+{
+	border-bottom:1px solid #999;
+}
+.about_us
+{
+	padding-bottom:15px;
+}
+.contact_row,.admin_login_row
+{
+	padding:15px;
+}
+.about_us p,.about_us h2
+{
+	padding:0 10px;
+}
+h3.info 
+{
+    color: #647705;
+}
+h4.info 
+{
+    color: #647705;
+}
+p.footer {
+    margin-top: 0;
+    color: #7d7d7d;
+    text-align: center;
+}
+.inputs
+{
+	margin:3px 0;
+	display:block;
+}
+.footer_row
+{
+	margin-bottom:100px;
+}
+.treatmentInfoModal h2
+{
+	font-size:1.8em;
+	color:#6b352b;
+}
+.treatmentInfoModal p
+{
+	font-size:1.7em;
+}
+.nav_row
+{
+	padding-top:20px;
+}
+.editDoctor,.deleteDoctor
+{
+	cursor:pointer;
+}
+.addDoctor
+{
+	margin-bottom:10px;
+}
+@media only screen and (max-width: 600px) {
+	.wrapper
+	{
+		width:90%;
+		
+	}
+	h1.mainTitle{
+		font-size:2em;	
+	}
+}
+
+.nav>li>a {
+    padding: 10px 10px;
+}
