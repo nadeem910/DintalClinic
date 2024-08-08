@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/15965376/how-to-configure-xampp-to-send-mail-from-localhost
+
+dentalc734@gmail.com
+Amir12345678
